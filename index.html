@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Najjar | Portfolio</title>
+    <meta name="description"
+        content="Portfolio of Ahmed Najjar. I excel at learning new concepts, communicating effectively, managing events and building connections.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Modern Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="sc.jpg">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">AN.</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#here">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content hidden">
+            <h2 class="greeting">Hello, I am</h2>
+            <h1 class="name">Ahmed Najjar</h1>
+            <p class="subtitle"><span style="color: #D4AF37;">Entrepreneur | Developer | Designer</span> <br>I’m ambitious, practical, and creative.
+                I like things done fast, clear, and effective, and I focus on turning ideas into real results.
+                I’m hands-on with tech and projects, but I also care about design and presentation.
+                Overall, I’m someone building my own path, not waiting for it. </p>
+            
+            <div class="cta-buttons">
+                <a href="#about" class="btn primary-btn">Learn More</a>
+                <a href="cv.pdf" download="" class="btn secondary-btn"><i class="fas fa-download"></i> My CV</a>
+            </div>
+        </div>
+        <div class="hero-image hidden">
+            <!-- Using the high-quality picture of you -->
+            <div class="image-wrapper">
+                <img src="try2.jpg" alt="Ahmed Najjar" loading="eager" fetchpriority="high">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 class="section-title hidden">About Me</h2>
+        <div class="about-container">
+            <div class="about-image hidden">
+                <div class="image-wrapper">
+                    <!-- Another picture of you -->
+                    <img src="1000009279.webp" alt="Ahmed Najjar Portrait" loading="lazy">
+                </div>
+            </div>
+            <div class="about-text">
+                <div class="about-card hidden">
+                    <h3><i class="fas fa-user-circle"></i> Who am i</h3>
+                    <p>I am a student and an entrepeneur. My passion for technology drives me to continuously learn and
+                        adapt in this ever-evolving field.</p>
+                </div>
+                <div class="about-card hidden" style="transition-delay: 0.2s;">
+                    <h3><i class="fas fa-laptop-code"></i> What i do</h3>
+                    <p>I excel at quickly learning new concepts, communicating effectively, managing events, and
+                        building meaningful connections. I also bring strong problem-solving abilities and a sharp,
+                        logical mindset.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2 class="section-title hidden">My Toolbox</h2>
+        <div class="skills-grid">
+            <div class="skill-item hidden"><i class="fab fa-python" style="color: #3776AB;"></i><span>Python</span>
+            </div>
+            <div class="skill-item hidden" style="transition-delay: 0.1s;"><i class="fab fa-html5"
+                    style="color: #E34F26;"></i><span>HTML</span></div>
+            <div class="skill-item hidden" style="transition-delay: 0.2s;"><i class="fab fa-css3-alt"
+                    style="color: #1572B6;"></i><span>CSS</span></div>
+            <div class="skill-item hidden" style="transition-delay: 0.3s;"><i class="fab fa-js"
+                    style="color: #F7DF1E;"></i><span>JavaScript</span></div>
+            <div class="skill-item hidden" style="transition-delay: 0.4s;"><i class="fas fa-c"
+                    style="color: #A8B9CC;"></i><span>C</span></div>
+            <div class="skill-item hidden" style="transition-delay: 0.5s;"><i class="fas fa-database"
+                    style="color: #4479A1;"></i><span>SQL</span></div>
+            <div class="skill-item hidden" style="transition-delay: 0.6s;"><i class="fab fa-git-alt"
+                    style="color: #F05032;"></i><span>Git</span></div>
+            <div class="skill-item hidden" style="transition-delay: 0.7s;"><i class="fab fa-github"
+                    style="color: #ffffff;"></i><span>GitHub</span></div>
+            <div class="skill-item hidden" style="transition-delay: 0.8s;"><img src="ai.jpg" style="border-radius: 10%;" alt="AI Prompt Engineering"><span>AI Prompt Engineering</span></div>
+            <div class="skill-item hidden" style="transition-delay: 0.9s;"><img src="sc.jpg" style="border-radius: 50%;" alt="Pure Ambition"><span>Pure Ambition</span></div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 class="section-title hidden">Featured Projects</h2>
+        <div class="projects-grid">
+
+          
+            <div class="project-card hidden" style="transition-delay: 0.1s;">
+                <div class="project-img">
+                    <img src="twins.png" alt="Local Cafe System" loading="lazy">
+                </div>
+                <div class="project-info">
+                    <h3>Local Café Menu</h3>
+                    <p>Digital menu for a local café, Twins café.</p>
+                    <a href="https://smartprotectnabeul.github.io/menu/" class="project-link">Learn More <i
+                            class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="project-card hidden" style="transition-delay: 0.1s;">
+                <div class="project-img">
+                    <img src="grand.png" style="border-radius: 100%;" alt="Local Cafe System" loading="lazy">
+                </div>
+                <div class="project-info">
+                    <h3>Local Café Menu</h3>
+                    <p>Digital menu for a local café, LeGrand café.(Phone mode only)</p>
+                    <a href="https://smartprotectnabeul.github.io/menu/LeGrand.html" class="project-link">Learn More <i
+                            class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="project-card hidden" style="transition-delay: 0.3s;">
+                <div class="project-img">
+                    <div
+                        style="width: 100%; height: 100%; background: linear-gradient(45deg, #1f2833, #45a29e); display: flex; align-items: center; justify-content: center;">
+                        <i class="fas fa-boxes" style="font-size: 4rem; color: #fff;"></i>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Stock & Invoice Management</h3>
+                    <p>A comprehensive system for managing stock and handling invoices efficiently.</p>
+                    <a href="https://ryan-gosling0.github.io/buytuns/admin.html" class="project-link">Learn More <i
+                            class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="project-card hidden" style="transition-delay: 0.4s;">
+                <div class="project-img">
+                    <img src="smp.jpg" style="border-radius: 50%;" alt="Local Cafe System" loading="lazy">
+                </div>
+                <div class="project-info">
+                    <h3>SmartProtect</h3>
+                    <p>E-commerce website developed for the SmartProtect brand.</p>
+                    <a href="https://ryan-gosling0.github.io/buytuns" class="project-link">Learn More <i
+                            class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="project-card hidden" style="transition-delay: 0.5s;">
+                <div class="project-img">
+                   <img src="golden.png" alt="gp" loading="lazy">
+                </div>
+                <div class="project-info">
+                    <h3>Golden Prestige</h3>
+                    <p>Website for a marriage service agency.</p>
+                    <a href="https://smartprotectnabeul.github.io/Golden-Prestige/" class="project-link">Learn More <i
+                            class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="project-card coming-soon hidden" style="transition-delay: 0.6s;">
+                <div class="project-info"
+                    style="align-items: center; text-align: center; justify-content: center; height: 100%;">
+                    <i class="fas fa-ellipsis-h"
+                        style="font-size: 2rem; color: var(--primary-color); margin-bottom: 1rem;"></i>
+                    <h3>More Projects</h3>
+                    <p>Most of my projects are still in development or private, but I will share them soon.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">   <div id="here"></div>
+        <h2 class="section-title hidden">Get In Touch</h2> 
+        <div class="contact-container hidden">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    
+                    <div>
+                        <h4>Email</h4>
+                        <p><a href="mailto:ahmedmidonajjar@gmail.com">ahmedmidonajjar@gmail.com</a></p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <div>
+                        <h4>Phone</h4>
+                        <p><a href="tel:+21658885966">(+216) 58885966</a></p>
+                    </div>
+                </div>
+                <div class="contact-item whatsapp-item">
+                    <i class="fab fa-whatsapp"></i>
+                    <div>
+                        <h4>WhatsApp</h4>
+                        <p><a href="https://wa.me/21658885966" target="_blank">(+216) 58885966</a></p>
+                    </div>
+                </div>
+                <div class="contact-item instagram-item">
+                    <i class="fab fa-instagram"></i>
+                    <div>
+                        <h4>StartUp</h4>
+                        <p><a href="https://www.instagram.com/nexusdev.tn" target="_blank">@nexusdev.tn</a></p>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://wa.me/21658885966" aria-label="WhatsApp" target="_blank" class="whatsapp-link"><i
+                            class="fab fa-whatsapp"></i></a>
+                    <a href="https://facebook.com/Ahmed Najjar" aria-label="Facebook" target="_blank"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a href="https://instagram.com/ahmed_najjar19" aria-label="Instagram" target="_blank"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="https://linkedin.com/in/ahmed-najjar20" aria-label="LinkedIn" target="_blank"><i
+                            class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Ahmed Najjar. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
