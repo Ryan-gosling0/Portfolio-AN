@@ -26,6 +26,11 @@ body {
     line-height: 1.6;
     overflow-x: hidden;
 }
+#speaker {
+    position: absolute;
+    right: 30rem;
+    top: 10px;
+}
 
 h1,
 h2,
@@ -713,6 +718,12 @@ footer {
     .image-wrapper {
         width: 300px;
         height: 300px;
+    }
+    #speaker {
+    position: absolute;
+    right: 20rem;
+    top: 10px;
+    
     }
 }
 

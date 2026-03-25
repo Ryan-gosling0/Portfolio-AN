@@ -73,3 +73,22 @@ document.addEventListener('DOMContentLoaded', () => {
     scrollActive();
     observerSetup();
 });
+
+
+const audio = new Audio('song1.mp3');
+audio.loop = true;
+audio.volume = 0.5;
+
+const speaker = document.getElementById("speaker");
+let isPlaying = false;
+
+speaker.addEventListener("click", () => {
+    if (isPlaying) {
+        audio.pause();
+        speaker.textContent = "🔇"; // muted icon
+    } else {
+        audio.play();
+        speaker.textContent = "🔊"; // sound icon
+    }
+    isPlaying = !isPlaying;
+});
