@@ -92,3 +92,5 @@ speaker.addEventListener("click", () => {
     }
     isPlaying = !isPlaying;
 });
+
+ 
